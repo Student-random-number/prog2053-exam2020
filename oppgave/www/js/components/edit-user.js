@@ -23,12 +23,12 @@ class EditUser extends LitElement {
   }
 
   uppdaterUser(e){
-
+   // din kode her
     fetch(`${api/updateUser.php}`
         ).then( res => res.json()
         ).then(data => {
         }
   }
-  // din kode her
+  
 }
 customElements.define('edit-user', EditUser);
